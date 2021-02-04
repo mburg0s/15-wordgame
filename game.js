@@ -163,13 +163,13 @@ function enableButton(){
     })
 
 }
-const clear = document.querySelector('#reset')
-clear.addEventListener('click',function(e){
-    reset()
-    enableButton()
-    randomWordGenerator()
-    generateDash()
-})
+// const clear = document.querySelector('#reset')
+// clear.addEventListener('click',function(e){
+//     reset()
+//     enableButton()
+//     randomWordGenerator()
+//     generateDash()
+// })
 
 
 function randomWordGenerator() {
